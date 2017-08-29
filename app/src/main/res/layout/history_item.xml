@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@drawable/rectangle_frame"
+    android:layout_height="?attr/actionBarSize" android:weightSum="1.0">
+
+    <TextView
+        android:id="@+id/history_item_txt"
+        android:layout_width="0dp"
+        android:padding="5dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:maxLines="1"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:text="http://www.google.com.eg/search=cristiano+ronaldo"
+        android:layout_weight="0.9"/>
+
+    <ImageView
+        android:id="@+id/history_item_img"
+        android:layout_width="0dp"
+        android:scaleType="centerInside"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_action_overflow_grey"
+        android:layout_weight="0.1"/>
+
+</LinearLayout>
